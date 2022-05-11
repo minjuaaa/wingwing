@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arr_home">
+        <item>청년전세임대주택</item>
+        <item>주거지원통합서비스</item>
+        <item>자립지원시설(자립생활관)</item>
+        <item>청년매입임대주택</item>
+        <item>영구임대주택</item>
+        <item>공동생활가정(그룹홈)</item>
+    </string-array>
+</resources>

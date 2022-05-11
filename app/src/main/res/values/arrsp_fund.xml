@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arr_fund">
+        <item>자립수당</item>
+        <item>자립정착금</item>
+        <item>디딤씨앗통장(CDA)</item>
+        <item>국민기초생활보장제도</item>
+        <item>긴급지원</item>
+    </string-array>
+</resources>

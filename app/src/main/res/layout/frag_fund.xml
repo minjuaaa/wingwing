@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Frag_fund">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Spinner
+                android:id="@+id/spin_fund"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:entries="@array/arr_fund"
+                android:isScrollContainer="true"
+                android:spinnerMode="dialog"/>
+
+
+
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/m01"
+                android:visibility="gone"
+                android:src="@drawable/m1"
+                android:layout_marginTop="40dp"
+                android:adjustViewBounds="true"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/m02"
+                android:visibility="gone"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/m2"
+                android:adjustViewBounds="true"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/m03"
+                android:visibility="gone"
+                android:src="@drawable/m3"
+                android:layout_marginTop="40dp"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/m04"
+                android:visibility="gone"
+                android:src="@drawable/m4"
+                android:layout_marginTop="40dp"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/m05"
+                android:visibility="gone"
+                android:src="@drawable/m5"
+                android:layout_marginTop="40dp"
+                android:adjustViewBounds="true"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

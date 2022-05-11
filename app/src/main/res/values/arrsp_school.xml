@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arr_school">
+        <item>국가장학금</item>
+        <item>학자금대출</item>
+        <item>취업성공패키지</item>
+        <item>내일배움카드</item>
+        <item>청년희망키움통장</item>
+    </string-array>
+</resources>

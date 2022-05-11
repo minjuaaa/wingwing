@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1EB2FF22"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:background="#74FFEB3B"
+        android:fontFamily="@font/scd5"
+        android:text="현재\n  나에게\n 필요한 정보는?!"
+        android:textSize="20pt" />
+
+    <Button
+        android:id="@+id/btnmain"
+        android:layout_width="190dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:text="시작하기"
+        android:textSize="15pt"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/scd3"
+        android:text="*본 테스트는 일부 내용만을 담고있으니 참고용으로 사용하세요" />
+
+</LinearLayout>

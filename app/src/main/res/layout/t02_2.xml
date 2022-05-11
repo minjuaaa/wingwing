@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAD4B8">
+
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="모아둔 돈은 있지만 \n어떤 집을 구해야 할 지 모르겠어요"
+        android:textSize="10pt"
+        android:fontFamily="@font/scd5"
+        android:layout_marginTop="170dp"/>
+
+
+    <Button
+        android:id="@+id/ymoney"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:text="선택"
+        android:layout_gravity="center"/>
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="현재 저축해둔 돈이 없어서\n 집을 구하기 힘들어요"
+        android:textSize="10pt"
+        android:fontFamily="@font/scd5"
+        android:layout_marginTop="170dp"/>
+
+            <Button
+                android:id="@+id/nmoney"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+
+                android:layout_marginTop="5dp"
+                android:text="선택"
+                android:layout_gravity="center"/>
+
+    </LinearLayout>
+

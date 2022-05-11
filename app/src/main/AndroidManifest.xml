@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cookandroid.proj_demo2">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_real"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_real_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+        android:usesCleartextTraffic="true">
+
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id"/>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_bar" />
+
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="e8i9n8gmkt" />
+
+        <activity android:name=".MainActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Frag_home" />
+        <activity android:name=".Frag_fund" />
+        <activity android:name=".Frag_school" />
+        <activity android:name=".center" />
+        <activity android:name=".news" />
+        <activity android:name=".setting"/>
+        <activity android:name=".tHome"/>
+        <activity android:name=".tMain"/>
+        <activity android:name=".tMoney"/>
+        <activity android:name=".tStdWk"/>
+        <activity android:name=".tWork"/>
+        <activity android:name=".End1"/>
+        <activity android:name=".End2"/>
+        <activity android:name=".End3"/>
+        <activity android:name=".End4"/>
+        <activity android:name=".End5"/>
+
+        <service
+            android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>

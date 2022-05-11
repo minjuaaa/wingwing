@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAD4B8">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="현재 직장에 재직중이며 \n정기적인 수입이 있어요"
+            android:textSize="10pt"
+            android:fontFamily="@font/scd5"
+            android:layout_marginTop="170dp"/>
+
+
+
+    <Button
+        android:id="@+id/ywork"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:text="선택"
+        android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="아직 취업을 하지 않아 \n일자리를 구해야해요"
+            android:textSize="10pt"
+            android:fontFamily="@font/scd5"
+            android:layout_marginTop="170dp"/>
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/nwork"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="선택" />
+
+
+
+
+</LinearLayout>
